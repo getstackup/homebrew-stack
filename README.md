@@ -1,1 +1,1 @@
-# homebrew-tap
+# homebrew-stack
