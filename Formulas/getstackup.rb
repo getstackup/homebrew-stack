@@ -3,6 +3,7 @@ class Getstackup < Formula
   homepage "https://www.getstackup.io/"
   url "https://www.getstackup.io/releases/download/v0.1.1-acf6ea1/stack-darwin-amd64.tar.gz"
   sha256 "4cf977ec6f71481f9b54600d94183b66667533bd7f8af818465057801473c633"
+  depends_on "wireguard-tools"
 
   bottle :unneeded
   def install
